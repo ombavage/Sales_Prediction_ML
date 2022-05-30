@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Sales Prediction</title>
+        <style>h1 {text-align: center};</style>
+        <style>body {background-image: url('https://www.inhouseops.com/wp-content/uploads/sites/152/2020/01/iStock-1133860020.jpg');
+                    background-repeat: no-repeat;
+                background-size: cover;}
+    </style>
+    </head>
+    <body> <h1>Future Sales Prediction</h1> <br><br>
+    
+        <form action="/data" method="post">
+            <label><b>Item Weight</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Item_Weight" required><br><br>
+
+            <label><b>Item Fat Content</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Low Fat</label>
+            <input type="radio" name="Item Fat Content" value="Low_Fat" required>
+
+            <label>Regular Fat</label>
+            <input type="radio" name="Item Fat Content" value="Regular_Fat" required><br><br>
+
+            <label><b>Item Visibility</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Item_Visibility" required><br><br>
+
+            <label><b>Item MRP</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Item_MRP" required><br><br>
+
+            <label><b>Establishment Year</b></label>&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Outlet_Establishment_Year" required><br><br>
+
+            <label><b>Item Types</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Breads</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Breads" required>
+            <label>Breakfast</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Breakfast" required>
+            <label>Canned</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Canned" required>
+            <label>Dairy</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Dairy" required>
+            <label>Frozen Foods</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Frozen Foods" required>
+            <label>Fruits and Vegetables</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Fruits and Vegetables" required>
+            <label>Hard Drinks</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Hard Drinks" required>
+            <label>Health and Hygiene</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Health and Hygiene" required><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Household</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Household" required>
+            <label>Meat</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Meat" required>
+            <label>Others</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Others" required>
+            <label>Seafood</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Seafood" required>
+            <label>Snack Foods</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Snack Foods" required>
+            <label>Soft Drinks</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Soft Drinks" required>
+            <label>Starchy Foods</label>
+            <input type="radio" name="Item_Types" value="Item_Type_Starchy Foods" required>
+            <label>Baking Goods</label>
+            <input type="radio" name="Item_Types" value="Baking_Goods" required>
+            <br><br>
+
+            <label><b>Outlet Size</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Small</label>
+            <input type="radio" name="Outlet_Size" value="Outlet_Size_Small" required>
+            <label>Medium</label>
+            <input type="radio" name="Outlet_Size" value="Outlet_Size_Medium" required>
+            <label>High</label>
+            <input type="radio" name="Outlet_Size" value="High" required>
+            
+            <br><br>
+            <label><b>Location Type</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Tier1</label>
+            <input type="radio" name="Outlet_Location_Type" value="Tier1" required>
+            <label>Tier2</label>
+            <input type="radio" name="Outlet_Location_Type" value="Outlet_Location_Type_Tier 2" required>
+            <label>Tier3</label>
+            <input type="radio" name="Outlet_Location_Type" value="Outlet_Location_Type_Tier 3" required>
+
+            <br><br>
+            <label><b>Outlet Type</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Supermarket Type 1</label>
+            <input type="radio" name="Outlet_Type" value="Outlet_Type_Supermarket Type1" required>
+            <label>Supermarket Type 2</label>
+            <input type="radio" name="Outlet_Type" value="Outlet_Type_Supermarket Type2" required>
+            <label>Supermarket Type 3</label>
+            <input type="radio" name="Outlet_Type" value="Outlet_Type_Supermarket Type3" required>
+            <label>Grocery Store</label>
+            <input type="radio" name="Outlet_Type" value="Grocery_Store" required>
+            
+            <br><br><br><br><br>
+            <center> <input type="submit" value="Predict" style="height: 40px; width: 120; font-size: large;font-weight: bold;border: 0ch;border-color: gold;shape-rendering: geometricPrecision;background-color: rgba(255, 255, 0, 0.479);"></center>
+            
+
+            
+
+
+
+
+
+
+        </form>
+    
+    </body>
+
+</html>
